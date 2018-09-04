@@ -5,4 +5,4 @@ SLACKFILE=/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/stati
 cat "$CONFIG" >> "$SLACKFILE"
 
 osascript -e 'tell application "Slack" to quit'
-open -a "Dropbox"
+open -a "Slack"
