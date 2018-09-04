@@ -11,9 +11,6 @@ In your terminal:
 ./install.sh
 ```
 
-Restart Slack.
-
-You're going to have to re-run this every time Slack updates.
-
+Since Slack clears the config file on update, you'll have to re-run this script eventually.
 
 Cheers!
